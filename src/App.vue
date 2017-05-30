@@ -357,7 +357,7 @@
 
     body {
         min-height: 100%;
-        background-color: #fff8e1;
+        /*background-color: #fff8e1;*/
     }
 
     /*
@@ -380,7 +380,7 @@
     }
 
     a:focus {
-        outline: thin dotted;
+        outline: thin none;
     }
 
     a:active, a:hover {
@@ -466,15 +466,8 @@
     }
 
     .bg--gradient {
-        /*background: linear-gradient(to bottom, #FFEA00 50%, #fff8e1 100%);*/
-        /*background: linear-gradient(to bottom, #ffee58 50%, #fff8e1 100%);*/
-        /*background: linear-gradient(to bottom, #ffb654 50%, #fff275 100%);*/
-        /*background: linear-gradient(to top, #ffe0b6 25%, #febc35 50%, #ffea00 100%);*/
-        /*background: linear-gradient(to top, rgba(255, 248, 225, 0.65) 15%, rgba(254, 188, 53, 0.82) 45%, #ffee58 100%);*/
-        /*background: linear-gradient(to top, #fceabb, #f8b500); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
-        /*background-image: linear-gradient(to top, #f6d365 0%, #fda085 100%);*/
-        /*background: linear-gradient(to bottom, rgba(255, 182, 84, 0.9) 50%, rgba(255, 238, 88, 0.65) 100%);*/
-        background: linear-gradient(200deg, rgba(255, 182, 84, 0.9) 50%, rgba(255, 238, 88, 0.65) 100%);
+        background: linear-gradient(185deg, rgba(255, 182, 84, .8) 17%, rgba(255, 238, 88, .7) 28%, #fff8e1);
+        background-blend-mode: screen;
     }
 
     .color--dark {
@@ -629,12 +622,12 @@
                 "year": "Soon",
                 "projects": [
                     {
-                        "year": "Soon",
+                        "year": "soon",
                         "name": "Colibri",
                         "slug": "colibri",
                         "category": "school",
                         "desc": "",
-                        "image": "colibri",
+                        "image": "colibri.png",
                         "technos": "IOS, Swift 3, MapBox SDK, Clarifai (Image recognition)",
                         "link": ""
                     }
@@ -647,11 +640,11 @@
                         "year": 2017,
                         "name": "Tracker",
                         "slug": "tracker",
-                        "category": "agency",
+                        "category": "datagif",
                         "desc": "",
-                        "image": "tracker",
+                        "image": "tracker.gif",
                         "technos": "lumen, vue.js, d3.js",
-                        "link": ""
+                        "link": "http://tracker.datagif.fr/"
                     },
                     {
                         "year": 2017,
@@ -659,19 +652,19 @@
                         "slug": "sports-2-0",
                         "category": "school",
                         "desc": "",
-                        "image": "sports-2-0",
+                        "image": "sports-2-0.gif",
                         "technos": "vue.js, vivus.js",
-                        "link": ""
+                        "link": "http://sports2-0.antonincaudron.com/"
                     },
                     {
                         "year": 2017,
                         "name": "Election Game",
                         "slug": "election-game",
-                        "category": "agency",
+                        "category": "datagif",
                         "desc": "",
-                        "image": "election-game",
-                        "technos": "node.js, mongodb, vue.js, ssr, gsap, mo.js, chart.js",
-                        "link": ""
+                        "image": "election-game.gif",
+                        "technos": "node.js, mongodb, vue.js, vuex, ssr, gsap, mo.js, chart.js",
+                        "link": "http://electiongame.datagif.fr/"
                     }
                 ]
             },
@@ -685,9 +678,9 @@
                         "slug": "dataviz",
                         "category": "school",
                         "desc": "",
-                        "image": "dadaviz",
+                        "image": "dadaviz.gif",
                         "technos": "vue.js, d3.js",
-                        "link": ""
+                        "link": "http://dadaviz.antonincaudron.com/"
                     },
                     {
                         "year": 2016,
@@ -695,29 +688,29 @@
                         "slug": "circles",
                         "category": "school",
                         "desc": "",
-                        "image": "circles",
+                        "image": "circles.gif",
                         "technos": "web audio api, pixiJS",
-                        "link": ""
+                        "link": "http://circles.antonincaudron.com"
                     },
                     {
                         "year": 2016,
                         "name": "Le Top",
                         "slug": "le-top",
-                        "category": "agency",
+                        "category": "datagif",
                         "desc": "",
-                        "image": "le-top",
+                        "image": "le-top.gif",
                         "technos": "symfony 2, vue.js, facebook api",
-                        "link": ""
+                        "link": "http://letop.datagif.fr/"
                     },
                     {
                         "year": 2016,
                         "name": 2016,
                         "slug": 2016,
-                        "category": "agency",
+                        "category": "datagif",
                         "desc": "",
-                        "image": 2016,
+                        "image": "2016.gif",
                         "technos": "canvas",
-                        "link": ""
+                        "link": "http://datagif.fr/2016/"
                     }
                 ]
             }
